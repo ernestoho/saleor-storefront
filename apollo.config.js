@@ -1,6 +1,6 @@
 const urljoin = require("url-join");
 
-const API_URL = urljoin(process.env.BACKEND_URL, "/graphql/");
+const API_URL = urljoin(process.env.BACKEND_URL, "https://rubiro.herokuapp.com/graphql/");
 
 module.exports = {
   client: {
